@@ -1,0 +1,104 @@
+# joint_limits.yaml allows the dynamics properties specified in the URDF to be overwritten or augmented as needed
+# Specific joint properties can be changed with the keys [max_position, min_position, max_velocity, max_acceleration]
+# Joint limits can be turned off with [has_velocity_limits, has_acceleration_limits]
+joint_limits:
+  index_dof0_joint:
+    has_velocity_limits: true
+    max_velocity: 100
+    has_acceleration_limits: false
+    max_acceleration: 0
+  index_dof1_joint:
+    has_velocity_limits: true
+    max_velocity: 100
+    has_acceleration_limits: false
+    max_acceleration: 0
+  index_dof2_joint:
+    has_velocity_limits: true
+    max_velocity: 100
+    has_acceleration_limits: false
+    max_acceleration: 0
+  index_dof3_joint:
+    has_velocity_limits: true
+    max_velocity: 100
+    has_acceleration_limits: false
+    max_acceleration: 0
+  middle_dof0_joint:
+    has_velocity_limits: true
+    max_velocity: 100
+    has_acceleration_limits: false
+    max_acceleration: 0
+  middle_dof1_joint:
+    has_velocity_limits: true
+    max_velocity: 100
+    has_acceleration_limits: false
+    max_acceleration: 0
+  middle_dof2_joint:
+    has_velocity_limits: true
+    max_velocity: 100
+    has_acceleration_limits: false
+    max_acceleration: 0
+  middle_dof3_joint:
+    has_velocity_limits: true
+    max_velocity: 100
+    has_acceleration_limits: false
+    max_acceleration: 0
+  pinky_dof0_joint:
+    has_velocity_limits: true
+    max_velocity: 100
+    has_acceleration_limits: false
+    max_acceleration: 0
+  pinky_dof1_joint:
+    has_velocity_limits: true
+    max_velocity: 100
+    has_acceleration_limits: false
+    max_acceleration: 0
+  pinky_dof2_joint:
+    has_velocity_limits: true
+    max_velocity: 100
+    has_acceleration_limits: false
+    max_acceleration: 0
+  pinky_dof3_joint:
+    has_velocity_limits: true
+    max_velocity: 100
+    has_acceleration_limits: false
+    max_acceleration: 0
+  ring_dof0_joint:
+    has_velocity_limits: true
+    max_velocity: 100
+    has_acceleration_limits: false
+    max_acceleration: 0
+  ring_dof1_joint:
+    has_velocity_limits: true
+    max_velocity: 100
+    has_acceleration_limits: false
+    max_acceleration: 0
+  ring_dof2_joint:
+    has_velocity_limits: true
+    max_velocity: 100
+    has_acceleration_limits: false
+    max_acceleration: 0
+  ring_dof3_joint:
+    has_velocity_limits: true
+    max_velocity: 100
+    has_acceleration_limits: false
+    max_acceleration: 0
+  thumb_dof0_joint:
+    has_velocity_limits: true
+    max_velocity: 100
+    has_acceleration_limits: false
+    max_acceleration: 0
+  thumb_dof1_joint:
+    has_velocity_limits: true
+    max_velocity: 100
+    has_acceleration_limits: false
+    max_acceleration: 0
+  thumb_dof2_joint:
+    has_velocity_limits: true
+    max_velocity: 100
+    has_acceleration_limits: false
+    max_acceleration: 0
+  thumb_dof3_joint:
+    has_velocity_limits: true
+    max_velocity: 100
+    has_acceleration_limits: false
+    max_acceleration: 0

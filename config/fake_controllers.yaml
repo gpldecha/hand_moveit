@@ -1,0 +1,31 @@
+controller_list:
+  - name: fake_index_controller
+    joints:
+      - index_dof0_joint
+      - index_dof1_joint
+      - index_dof2_joint
+      - index_dof3_joint
+  - name: fake_middle_controller
+    joints:
+      - middle_dof0_joint
+      - middle_dof1_joint
+      - middle_dof2_joint
+      - middle_dof3_joint
+  - name: fake_ring_controller
+    joints:
+      - ring_dof0_joint
+      - ring_dof1_joint
+      - ring_dof2_joint
+      - ring_dof3_joint
+  - name: fake_pinky_controller
+    joints:
+      - pinky_dof0_joint
+      - pinky_dof1_joint
+      - pinky_dof2_joint
+      - pinky_dof3_joint
+  - name: fake_thumb_controller
+    joints:
+      - thumb_dof0_joint
+      - thumb_dof1_joint
+      - thumb_dof2_joint
+      - thumb_dof3_joint
